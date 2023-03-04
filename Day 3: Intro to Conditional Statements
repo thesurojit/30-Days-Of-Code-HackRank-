@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main(){
+    int t;
+    scanf("%d",&t);
+    if(t%2==0){
+        if(t>=2&&t<=5){
+        printf("Not Weird");
+        }
+        else if (t>=6&&t<=20){
+        printf("Weird");
+        }
+        else if (t>20){
+        printf("Not Weird");
+        }
+    } 
+    else {
+        printf("Weird");
+    }
+    
+}
+
